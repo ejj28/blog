@@ -23,24 +23,24 @@ title: Erik Colley
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="https://erikcolley.ca">Erik Colley</a>
-			
-        	<ul class="navbar-nav mr-auto">
-    			<li class="nav-item">
-        			<a class="nav-link" href="https://erikcolley.ca/blog">Blog</a>
-      			</li>
-			</ul>
-      		
 		</nav>
 
-		<h1 id="titleHeader">{{ title }}</h1>
-		<h5 id="subtitleHeader">{{  subtitle  }}</h5>
-		<p id="date"><strong>{{  publishdate  }}</strong></p>
+		<h1 id="indexHeading">Posts</h1>
 
 		<div class="container">
   			<div class="row">
     			
     			<div class="col-sm">
-      				{{ content | safe }}
+					<div class="list-group">
+						{%- for post in collections.post -%}
+							<a href={{ post.url }} class="list-group-item list-group-item-action">
+								<div class="d-flex justify-content-between">
+									<span><strong>{{ post.data.title }}</strong> - {{ post.data.subtitle }}</span>
+									<span>{{ post.data.publishdate }}</span>
+								</div>
+							</a>
+						{%- endfor -%}
+					</div>
     			</div>
     			
   			</div>

@@ -1,4 +1,4 @@
 ---
-layout: blogpost.njk
-title: Blog under construction
+layout: index.njk
+title: Blog - Erik Colley
 ---

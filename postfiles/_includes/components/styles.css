@@ -1,6 +1,6 @@
 #titleHeader {
 	text-align: center;
-	margin: 25px 25px 10px 25px;
+	margin: 25px 25px 0px 25px;
 }
 
 #subtitleHeader {
@@ -11,4 +11,9 @@
 #date {
 	text-align: center;
 	margin-bottom: 25px;
+}
+
+#indexHeading {
+	text-align: center;
+	margin: 25px 25px 25px 25px;
 }

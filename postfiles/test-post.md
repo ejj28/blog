@@ -3,6 +3,7 @@ layout: blogpost.njk
 title: Test post!
 subtitle: A test post to test my new blog layout
 publishdate: "October 27, 2020"
+tags: post
 ---
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo velit, aliquam sagittis eros et, blandit pellentesque ipsum. Ut sed venenatis felis. Pellentesque metus urna, lobortis vitae eros sed, convallis scelerisque ligula. Sed sollicitudin iaculis risus vitae consectetur. Vivamus fermentum nulla libero, non tempus risus congue in. Maecenas at tellus eu erat interdum fringilla non vel dolor. Vivamus eu lectus finibus, congue nisl ut, congue quam. Aenean tincidunt eros enim, nec fringilla magna pretium eget. Aliquam vel augue non sapien venenatis tempus. Nullam placerat nisl magna, vitae posuere neque tincidunt eget. Proin a scelerisque nisi. Sed pharetra tempus massa.
