@@ -1,2 +1,1 @@
-# blog
- The blog component of erikcolley.ca
+# The blog component of erikcolley.ca, made using 11ty
